@@ -1,1 +1,40 @@
-eeheheh
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="img/banner.png" alt="Banner" id="banner">
+
+    <form class="" action="index.html" method="post">
+
+      <div class="block">
+        <input type="file" name="" value="" accept=".css">
+      </div>
+
+      <div class="block">
+        <label for="theme">Choisir un theme</label>
+        <select name="theme" id="theme">
+        	<option>macOS</option>
+        </select>
+      </div>
+
+      <div class="block">
+        <input type="checkbox" name="" value="" id="active">
+        <label for="active" id="activeLabel">Activer</label>
+      </div>
+
+    </form>
+
+    <p>Your OS :</p>
+
+    <button id="myButton">Click me</button>
+
+    <span id="OS"></span>
+
+    <script src="script.js"></script>
+  </body>
+</html>
