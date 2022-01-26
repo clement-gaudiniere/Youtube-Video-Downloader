@@ -24,7 +24,12 @@
     },
     "default_title": "Click Me",
     "default_popup": "view.html"
-  }
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
 
   // Pick one (or none)
   // "browser_action": {...},

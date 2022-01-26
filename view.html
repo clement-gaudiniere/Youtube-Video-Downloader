@@ -4,36 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
-    <img src="img/banner.png" alt="Banner" id="banner">
 
-    <form class="" action="index.html" method="post">
-
-      <div class="block">
-        <input type="file" name="" value="" accept=".css">
+    <div id="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
       </div>
+    </div>
 
-      <div class="block">
-        <label for="theme">Choisir un theme</label>
-        <select name="theme" id="theme">
-        	<option>macOS</option>
-        </select>
-      </div>
+    <div id="content">
+      <p>Vous êtes à cette url :</p>
 
-      <div class="block">
-        <input type="checkbox" name="" value="" id="active">
-        <label for="active" id="activeLabel">Activer</label>
-      </div>
+      <span id="url"></span>
 
-    </form>
-
-    <p>Your OS :</p>
-
-    <button id="myButton">Click me</button>
-
-    <span id="OS"></span>
+      <button type="button" name="getUrl" id="getUrl">Récupérer l'url</button>
+    </div>
 
     <script src="script.js"></script>
   </body>

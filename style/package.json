@@ -1,0 +1,19 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "Style for youtube-video-downloader chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss:style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clement-gaudiniere/youtube-video-downloader.git"
+  },
+  "author": "Clément Gaudinière",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clement-gaudiniere/youtube-video-downloader/issues"
+  },
+  "homepage": "https://github.com/clement-gaudiniere/youtube-video-downloader#readme"
+}
