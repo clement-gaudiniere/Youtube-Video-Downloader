@@ -1,2 +1,2 @@
-# chromium-macos-buttons-extension
-Extension for customize the navigation buttons to give them a macOS button look.
+# Youtube Video Downloader
+Download any youtube video in one click.
