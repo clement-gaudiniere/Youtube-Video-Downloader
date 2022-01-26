@@ -22,7 +22,7 @@
       "48": "img/logo48.png",
       "128": "img/logo128.png"
     },
-    "default_title": "Click Me",
+    "default_title": "Download video",
     "default_popup": "view.html"
   },
 
@@ -30,6 +30,7 @@
     "tabs",
     "activeTab"
   ]
+
 
   // Pick one (or none)
   // "browser_action": {...},

@@ -1,7 +1,22 @@
+/*
+  STYLE.SCSS
+  Fichier de style en cascade Scss.
+  A lancer avec la commande : npm run sass
+    ░▄▀▀░█▒ ▒██▀░█▄▒▄█░█▒ ░▀▄▀▒▄▀▄
+    ░▀▄▄▒█▄▄░█▄▄░█▒▀▒█▒█▄▄░▒█▒░█▀█▒░
+  Copyright (c) 2022 Copyright Holder All Rights Reserved.
+*/
+
+
+// Variables
+$background: #2c2c2c;
+
+
+// Style
 body{
-  background: transparent;
   border-radius: 12px;
-  width: 190px;
+  width: 250px;
+  height: 300px;
   user-select: none;
   padding: 0;
   margin: 0;
@@ -15,12 +30,15 @@ body{
 
 // Loader
 #loader{
-  background: black;
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
+  background: $background;
+  width: 100%;
+  height: 100%;
+  > div{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
-
 .lds-ripple {
   display: inline-block;
   position: relative;
