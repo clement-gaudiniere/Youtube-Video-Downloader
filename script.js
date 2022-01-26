@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-import { saveAs } from 'file-saver';
+// import { saveAs } from 'file-saver/dist/FileSaver.min.js';
 
 // Download
 document.getElementById("getVideo").addEventListener("click", getVideo);
